@@ -1,0 +1,17 @@
+{
+"manifest_version": 2,
+"name" : "Over Ride new page",
+"description" : "Open beautiful new page",
+
+"homepage_url": "http://iamvp7.github.io/",
+  "version": "2.0",
+
+"icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  },
+"chrome_url_overrides" : {
+  "newtab": "popup.html"
+}
+
+}
