@@ -1,2 +1,2 @@
 Screenshots of attendees
-![task](/Firefox/task.jpg)
+![task](Firefox/task.jpg)
