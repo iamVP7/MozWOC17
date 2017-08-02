@@ -1,7 +1,7 @@
 {
 "manifest_version": 2,
-"name" : "Tab Update",
-"description" : "Update the tab on created",
+"name" : "Tab Reload",
+"description" : "Reload current tab",
 
 "homepage_url": "http://iamvp7.github.io/",
   "version": "1.0",
@@ -13,8 +13,11 @@
   "background": {
     "scripts": ["background.js"]
   },
-  "permissions" : ["tabs"]
-
+  "permissions" : ["tabs"],
+  "browser_action": {
+    "default_icon": "icons/page-32.png",
+    "default_title": "Close New Tab"
+  }
 
 
 }
