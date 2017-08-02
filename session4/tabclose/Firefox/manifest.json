@@ -1,0 +1,26 @@
+{
+"manifest_version": 2,
+"name" : "Tab Close",
+"description" : "Open links in new Tab",
+
+"homepage_url": "http://iamvp7.github.io/",
+  "version": "1.0",
+
+"icons": {
+    "48": "icons/page-48.png",
+    "32": "icons/page-32.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions" : ["tabs"],
+  "browser_action": {
+    "default_icon": "icons/page-32.png",
+    "default_title": "Close New Tab"
+  }
+
+
+}
+
+
+
