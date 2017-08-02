@@ -1,3 +1,5 @@
+browser.tabs.onCreated.addListener(handleCreated);
+
 
 function handleCreated(tab) {
   console.log("the created tab id is "+tab.id);
@@ -6,7 +8,6 @@ var updating = browser.tabs.update({url: "https://developer.mozilla.org"});
 updating.then(onUpdated, onError);
 }
 
-browser.tabs.onCreated.addListener(handleCreated);
 
 function onUpdated(tab) {
   console.log(`Updated tab: ${tab.id}`);
