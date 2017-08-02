@@ -1,0 +1,32 @@
+{
+"manifest_version": 2,
+"name" : "TabsOpen",
+"description" : "Open links in new Tab",
+"applications": {
+    "gecko": {
+      "id": "shihan.viswa@gmail.com"
+    }
+  },
+
+"homepage_url": "http://iamvp7.github.io/",
+  "version": "1.0",
+
+"icons": {
+    "48": "icons/page-48.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+
+  "browser_action": {
+    "default_icon": "icons/page-32.png",
+    "default_title": "Open New Tab",
+    "default_popup": "popup/choose_beast.html"
+  }
+
+
+}
+
+
+
